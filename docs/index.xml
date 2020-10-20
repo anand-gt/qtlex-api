@@ -23,7 +23,9 @@ API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required descr
       <pubDate>Tue, 20 Oct 2020 20:07:28 +0530</pubDate>
       
       <guid>https://anand-gt.github.io/qtlex-api/Core-Resources/Bugs/</guid>
-      <description></description>
+      <description>Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.
+ Buyer Seller Admin  Authenicate users You can authenicate users by sending post request with username and password through api.
+API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required description     q optional no parameter as such    Examples of API calls  curl -I --header &amp;quot;Content-Type: application/javascript&amp;quot; --request POST --data @request.</description>
     </item>
     
     <item>
