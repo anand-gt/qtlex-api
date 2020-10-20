@@ -5,7 +5,38 @@
     <link>https://anand-gt.github.io/qtlex-api/introduction/</link>
     <description>Recent content in Introductions on Qtlex API</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Oct 2020 11:57:29 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2020 20:16:21 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Errors</title>
+      <link>https://anand-gt.github.io/qtlex-api/Introduction/Errors/</link>
+      <pubDate>Tue, 20 Oct 2020 20:16:21 +0530</pubDate>
+      
+      <guid>https://anand-gt.github.io/qtlex-api/Introduction/Errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Authenication</title>
+      <link>https://anand-gt.github.io/qtlex-api/Introduction/Authenication/</link>
+      <pubDate>Tue, 20 Oct 2020 20:10:47 +0530</pubDate>
+      
+      <guid>https://anand-gt.github.io/qtlex-api/Introduction/Authenication/</guid>
+      <description>Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.
+ Buyer Seller Admin  Authenicate users You can authenicate users by sending post request with username and password through api.
+API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required description     q optional no parameter as such    Examples of API calls  curl -I --header &amp;quot;Content-Type: application/javascript&amp;quot; --request POST --data @request.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://anand-gt.github.io/qtlex-api/Introduction/Getting-Started/</link>
+      <pubDate>Tue, 20 Oct 2020 20:10:34 +0530</pubDate>
+      
+      <guid>https://anand-gt.github.io/qtlex-api/Introduction/Getting-Started/</guid>
+      <description>Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.
+ Buyer Seller Admin  Authenicate users You can authenicate users by sending post request with username and password through api.
+API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required description     q optional no parameter as such    Examples of API calls  curl -I --header &amp;quot;Content-Type: application/javascript&amp;quot; --request POST --data @request.</description>
+    </item>
+    
     <item>
       <title>Content</title>
       <link>https://anand-gt.github.io/qtlex-api/Introduction/content/</link>
