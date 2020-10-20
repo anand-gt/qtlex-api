@@ -5,7 +5,18 @@
     <link>https://anand-gt.github.io/qtlex-api/</link>
     <description>Recent content on Qtlex API</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Oct 2020 15:50:44 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2020 18:08:47 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>User Authorization</title>
+      <link>https://anand-gt.github.io/qtlex-api/User-Authorization/user-authorization/</link>
+      <pubDate>Tue, 20 Oct 2020 18:08:47 +0530</pubDate>
+      
+      <guid>https://anand-gt.github.io/qtlex-api/User-Authorization/user-authorization/</guid>
+      <description>Authoriazation of user Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.
+ Buyer Seller Admin  Authenicate users You can authenicate users by sending post request with username and password through api.
+API call curl  curl -X POST -d @request.json   javascript  function(){ $.post(&amp;quot;request.json&amp;quot;, function(data, status){ alert(&amp;quot;Data: &amp;quot;+data+&amp;quot;\nStatus: &amp;quot;+status) }); }    </description>
+    </item>
+    
     <item>
       <title>Post1</title>
       <link>https://anand-gt.github.io/qtlex-api/section1/post1/</link>
@@ -23,7 +34,7 @@
       <guid>https://anand-gt.github.io/qtlex-api/API-Docs/content/</guid>
       <description>This is first draft There is some code curl -X GET http://localhost:8000
 Python Code Block print(&amp;#34;Hello, World&amp;#34;) Javascript Code Block console.log(&amp;#34;Hello, World&amp;#34;) Shell Code Block echo &amp;#34;Hello, World&amp;#34; Curl Command
-This is curl command  API call </description>
+This is curl command  API call    API Call     /categories call categories   /get get categories    </description>
     </item>
     
   </channel>

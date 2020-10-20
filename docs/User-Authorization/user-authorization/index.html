@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Content">
+<meta name="description" content="User Authorization">
 
-<title>Content | Qtlex API</title>
+<title>User Authorization | Qtlex API</title>
 
 <link rel="icon" href="/qtlex-api/favicon/favicon-32x32.png" type="image/x-icon">
 <link rel="stylesheet" href="/qtlex-api/main.min.css" media="screen">
@@ -81,7 +81,7 @@
             <li>
             
                 <span class="flex">
-                    <a href="/qtlex-api/API-Docs/content/" class="gdoc-nav__entry is-active">
+                    <a href="/qtlex-api/API-Docs/content/" class="gdoc-nav__entry ">
                         Content
                     </a>
                 </span>
@@ -153,7 +153,7 @@
             <li>
             
                 <span class="flex">
-                    <a href="/qtlex-api/User-Authorization/user-authorization/" class="gdoc-nav__entry ">
+                    <a href="/qtlex-api/User-Authorization/user-authorization/" class="gdoc-nav__entry is-active">
                         User Authorization
                     </a>
                 </span>
@@ -219,7 +219,7 @@
         
     
     
-        <a href='/qtlex-api/'>Qtlex API</a> / <a href='/qtlex-api/api-docs/'>API-Docs</a> / Content
+        <a href='/qtlex-api/'>Qtlex API</a> / <a href='/qtlex-api/user-authorization/'>User Authorizations</a> / User Authorization
     
 
     
@@ -236,7 +236,7 @@
 
 
     <article class="gdoc-markdown">
-        <h1>Content</h1>
+        <h1>User Authorization</h1>
         
 
 
@@ -244,38 +244,48 @@
     
 
 
-<p>This is first draft
-There is some code <code>curl -X GET http://localhost:8000</code></p>
-<h1 id="python-code-block">Python Code Block</h1>
-<div class="highlight"><pre class="chroma"><code class="language-Python" data-lang="Python"><span class="k">print</span><span class="p">(</span><span class="s2">&#34;Hello, World&#34;</span><span class="p">)</span>
-</code></pre></div><div class="gdoc-page__anchorwrap"><h2 id="javascript-code-block">Javascript Code Block<a data-clipboard-text="https://anand-gt.github.io/qtlex-api/API-Docs/content/#javascript-code-block" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Javascript Code Block" href="#javascript-code-block"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
-<div class="highlight"><pre class="chroma"><code class="language-Javascript" data-lang="Javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello, World&#34;</span><span class="p">)</span>
-</code></pre></div><div class="gdoc-page__anchorwrap"><h3 id="shell-code-block">Shell Code Block<a data-clipboard-text="https://anand-gt.github.io/qtlex-api/API-Docs/content/#shell-code-block" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Shell Code Block" href="#shell-code-block"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
-<div class="highlight"><pre class="chroma"><code class="language-Shell" data-lang="Shell"><span class="nb">echo</span> <span class="s2">&#34;Hello, World&#34;</span>
-</code></pre></div><blockquote class="gdoc-hint info">
-  <strong>Curl Command</strong><br>
-This is curl command
-</blockquote>
+<h1 id="authoriazation-of-user">Authoriazation of user</h1>
+<p>Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.</p>
+<ul>
+<li>Buyer</li>
+<li>Seller</li>
+<li>Admin</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="authenicate-users">Authenicate users<a data-clipboard-text="https://anand-gt.github.io/qtlex-api/User-Authorization/user-authorization/#authenicate-users" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Authenicate users" href="#authenicate-users"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>You can authenicate users by sending post request with username and password through api.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="api-call">API call<a data-clipboard-text="https://anand-gt.github.io/qtlex-api/User-Authorization/user-authorization/#api-call" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor API call" href="#api-call"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
 
-<h3><b><u>API call</u></b></h3>
-<table>
-<thead>
-<tr>
-<th>API</th>
-<th>Call</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>/categories</td>
-<td>call categories</td>
-</tr>
-<tr>
-<td>/get</td>
-<td>get categories</td>
-</tr>
-</tbody>
-</table>
+
+
+
+<div class="gdoc-tabs">
+  
+    <input type="radio" class="gdoc-tabs__control hidden" name="tabs-login" id="tabs-login-0"
+      checked="checked"  />
+    <label for="tabs-login-0" class="gdoc-tabs__label">
+      curl
+    </label>
+    <div class="gdoc-markdown--nested gdoc-tabs__content">
+      <pre><code>curl -X POST -d @request.json
+</code></pre>
+    </div>
+  
+    <input type="radio" class="gdoc-tabs__control hidden" name="tabs-login" id="tabs-login-1"
+       />
+    <label for="tabs-login-1" class="gdoc-tabs__label">
+      javascript
+    </label>
+    <div class="gdoc-markdown--nested gdoc-tabs__content">
+      <pre><code>function(){
+    $.post(&quot;request.json&quot;, function(data, status){
+        alert(&quot;Data: &quot;+data+&quot;\nStatus: &quot;+status)
+    });
+}
+</code></pre>
+    </div>
+  
+</div>
+
 
 
     </article>
