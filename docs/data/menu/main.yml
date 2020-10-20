@@ -1,0 +1,9 @@
+Navigation:
+  - name: "Getting Started"
+    ref: "/Getting Started"
+  - name: "Introduction"
+    ref: "/Introduction"
+  - name: "Authenication"
+    ref: "/Authenication"
+  - name: "Core Resources"
+    ref: "/Core Resources"
