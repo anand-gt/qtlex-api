@@ -18,15 +18,6 @@ API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required descr
     </item>
     
     <item>
-      <title>Post1</title>
-      <link>https://anand-gt.github.io/qtlex-api/section1/post1/</link>
-      <pubDate>Tue, 20 Oct 2020 15:50:44 +0530</pubDate>
-      
-      <guid>https://anand-gt.github.io/qtlex-api/section1/post1/</guid>
-      <description>This is the second post</description>
-    </item>
-    
-    <item>
       <title>Content</title>
       <link>https://anand-gt.github.io/qtlex-api/Introduction/content/</link>
       <pubDate>Tue, 20 Oct 2020 11:57:29 +0530</pubDate>
