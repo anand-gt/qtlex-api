@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authenications on Qtlex API</title>
+    <link>https://anand-gt.github.io/qtlex-api/authenication/</link>
+    <description>Recent content in Authenications on Qtlex API</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Oct 2020 18:08:47 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/authenication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>User Authorization</title>
+      <link>https://anand-gt.github.io/qtlex-api/Authenication/login/</link>
+      <pubDate>Tue, 20 Oct 2020 18:08:47 +0530</pubDate>
+      
+      <guid>https://anand-gt.github.io/qtlex-api/Authenication/login/</guid>
+      <description>Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.
+ Buyer Seller Admin  Authenicate users You can authenicate users by sending post request with username and password through api.
+API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required description     q optional no parameter as such    Examples of API calls  curl -I --header &amp;quot;Content-Type: application/javascript&amp;quot; --request POST --data @request.</description>
+    </item>
+    
+  </channel>
+</rss>

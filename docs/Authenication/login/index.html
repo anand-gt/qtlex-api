@@ -4,15 +4,14 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Section1s">
+<meta name="description" content="User Authorization">
 
-<title>Section1s | Qtlex API</title>
+<title>User Authorization | Qtlex API</title>
 
 <link rel="icon" href="/qtlex-api/favicon/favicon-32x32.png" type="image/x-icon">
 <link rel="stylesheet" href="/qtlex-api/main.min.css" media="screen">
 <link rel="stylesheet" href="/qtlex-api/custom.css" media="screen">
 
-<link rel="alternate" type="application/rss+xml" href="https://anand-gt.github.io/qtlex-api/section1/index.xml" title="Qtlex API" />
 <!--Made with Geekdoc theme https://github.com/xoxys/hugo-geekdoc-->
 
 </head>
@@ -82,7 +81,7 @@
             <li>
             
                 <span class="flex">
-                    <a href="/qtlex-api/Authenication/login/" class="gdoc-nav__entry ">
+                    <a href="/qtlex-api/Authenication/login/" class="gdoc-nav__entry is-active">
                         User Authorization
                     </a>
                 </span>
@@ -215,7 +214,14 @@
         
     
     
-        <a href='/qtlex-api/'>Qtlex API</a> / Section1s
+        
+        
+        
+    
+    
+        <a href='/qtlex-api/'>Qtlex API</a> / <a href='/qtlex-api/authenication/'>Authenications</a> / User Authorization
+    
+
     
 
     
@@ -228,14 +234,92 @@
     </span>
 </div>
 
+
     <article class="gdoc-markdown">
-        <h1>Section1s</h1>
+        <h1>User Authorization</h1>
         
 
 
 
     
 
+
+<p>Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.</p>
+<ul>
+<li>Buyer</li>
+<li>Seller</li>
+<li>Admin</li>
+</ul>
+<div class="gdoc-page__anchorwrap"><h2 id="authenicate-users">Authenicate users<a data-clipboard-text="https://anand-gt.github.io/qtlex-api/Authenication/login/#authenicate-users" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Authenicate users" href="#authenicate-users"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>You can authenicate users by sending post request with username and password through api.</p>
+<div class="gdoc-page__anchorwrap"><h3 id="api-call"><strong>API call</strong><a data-clipboard-text="https://anand-gt.github.io/qtlex-api/Authenication/login/#api-call" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <strong>API call</strong>" href="#api-call"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<hr>
+<pre><code>qtlex.qtlomics.com/api/v1/login
+</code></pre><div class="gdoc-page__anchorwrap"><h3 id="parameters"><strong>Parameters</strong><a data-clipboard-text="https://anand-gt.github.io/qtlex-api/Authenication/login/#parameters" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <strong>Parameters</strong>" href="#parameters"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<hr>
+<table>
+<thead>
+<tr>
+<th>parmeter</th>
+<th>required</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>q</code></td>
+<td>optional</td>
+<td>no parameter as such</td>
+</tr>
+</tbody>
+</table>
+<div class="gdoc-page__anchorwrap"><h3 id="examples-of-api-calls"><strong>Examples of API calls</strong><a data-clipboard-text="https://anand-gt.github.io/qtlex-api/Authenication/login/#examples-of-api-calls" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <strong>Examples of API calls</strong>" href="#examples-of-api-calls"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<hr>
+<pre><code>curl -I --header &quot;Content-Type: application/javascript&quot; --request POST --data @request.json http://qtlex.qtlomics.com/api/v1/login
+</code></pre><div class="gdoc-page__anchorwrap"><h3 id="example-of-request-object"><strong>Example of Request Object</strong><a data-clipboard-text="https://anand-gt.github.io/qtlex-api/Authenication/login/#example-of-request-object" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <strong>Example of Request Object</strong>" href="#example-of-request-object"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<hr>
+
+
+
+
+<div class="gdoc-tabs">
+  
+    <input type="radio" class="gdoc-tabs__control hidden" name="tabs-request" id="tabs-request-0"
+      checked="checked"  />
+    <label for="tabs-request-0" class="gdoc-tabs__label">
+      Request Object
+    </label>
+    <div class="gdoc-markdown--nested gdoc-tabs__content">
+      <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+    <span class="nt">&#34;user&#34;</span><span class="p">:</span> <span class="s2">&#34;user1&#34;</span><span class="p">,</span>
+    <span class="nt">&#34;password&#34;</span><span class="p">:</span> <span class="s2">&#34;secret-password&#34;</span>
+<span class="p">}</span>
+</code></pre></div>
+    </div>
+  
+</div>
+
+<div class="gdoc-page__anchorwrap"><h3 id="example-of-response-object"><strong>Example of Response Object</strong><a data-clipboard-text="https://anand-gt.github.io/qtlex-api/Authenication/login/#example-of-response-object" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor <strong>Example of Response Object</strong>" href="#example-of-response-object"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h3></div>
+<hr>
+
+
+
+
+<div class="gdoc-tabs">
+  
+    <input type="radio" class="gdoc-tabs__control hidden" name="tabs-response" id="tabs-response-0"
+      checked="checked"  />
+    <label for="tabs-response-0" class="gdoc-tabs__label">
+      Response Object
+    </label>
+    <div class="gdoc-markdown--nested gdoc-tabs__content">
+      <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+    <span class="nt">&#34;status&#34;</span><span class="p">:</span><span class="s2">&#34;accepted&#34;</span>
+<span class="p">}</span>
+</code></pre></div>
+    </div>
+  
+</div>
 
 
 

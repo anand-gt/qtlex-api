@@ -8,11 +8,11 @@
     <lastBuildDate>Tue, 20 Oct 2020 18:08:47 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>User Authorization</title>
-      <link>https://anand-gt.github.io/qtlex-api/User-Authorization/user-authorization/</link>
+      <link>https://anand-gt.github.io/qtlex-api/Authenication/login/</link>
       <pubDate>Tue, 20 Oct 2020 18:08:47 +0530</pubDate>
       
-      <guid>https://anand-gt.github.io/qtlex-api/User-Authorization/user-authorization/</guid>
-      <description>Authoriazation of user Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.
+      <guid>https://anand-gt.github.io/qtlex-api/Authenication/login/</guid>
+      <description>Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.
  Buyer Seller Admin  Authenicate users You can authenicate users by sending post request with username and password through api.
 API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required description     q optional no parameter as such    Examples of API calls  curl -I --header &amp;quot;Content-Type: application/javascript&amp;quot; --request POST --data @request.</description>
     </item>
@@ -28,10 +28,10 @@ API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required descr
     
     <item>
       <title>Content</title>
-      <link>https://anand-gt.github.io/qtlex-api/API-Docs/content/</link>
+      <link>https://anand-gt.github.io/qtlex-api/Introduction/content/</link>
       <pubDate>Tue, 20 Oct 2020 11:57:29 +0530</pubDate>
       
-      <guid>https://anand-gt.github.io/qtlex-api/API-Docs/content/</guid>
+      <guid>https://anand-gt.github.io/qtlex-api/Introduction/content/</guid>
       <description>This is first draft There is some code curl -X GET http://localhost:8000
 Python Code Block print(&amp;#34;Hello, World&amp;#34;) Javascript Code Block console.log(&amp;#34;Hello, World&amp;#34;) Shell Code Block echo &amp;#34;Hello, World&amp;#34; Curl Command
 This is curl command  API call    API Call     /categories call categories   /get get categories    </description>

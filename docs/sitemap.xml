@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://anand-gt.github.io/qtlex-api/authenication/</loc>
+    <lastmod>2020-10-20T18:08:47+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://anand-gt.github.io/qtlex-api/</loc>
     <lastmod>2020-10-20T18:08:47+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://anand-gt.github.io/qtlex-api/User-Authorization/user-authorization/</loc>
-    <lastmod>2020-10-20T18:08:47+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anand-gt.github.io/qtlex-api/user-authorization/</loc>
+    <loc>https://anand-gt.github.io/qtlex-api/Authenication/login/</loc>
     <lastmod>2020-10-20T18:08:47+05:30</lastmod>
   </url>
   
@@ -28,12 +28,12 @@
   </url>
   
   <url>
-    <loc>https://anand-gt.github.io/qtlex-api/api-docs/</loc>
+    <loc>https://anand-gt.github.io/qtlex-api/Introduction/content/</loc>
     <lastmod>2020-10-20T11:57:29+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://anand-gt.github.io/qtlex-api/API-Docs/content/</loc>
+    <loc>https://anand-gt.github.io/qtlex-api/introduction/</loc>
     <lastmod>2020-10-20T11:57:29+05:30</lastmod>
   </url>
   
