@@ -23,7 +23,7 @@ API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required descr
       <pubDate>Tue, 20 Oct 2020 20:07:18 +0530</pubDate>
       
       <guid>https://anand-gt.github.io/qtlex-api/Core-Resources/Users/</guid>
-      <description></description>
+      <description>Users </description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required descr
       <pubDate>Tue, 20 Oct 2020 20:07:04 +0530</pubDate>
       
       <guid>https://anand-gt.github.io/qtlex-api/Core-Resources/Payment/</guid>
-      <description></description>
+      <description>Payment </description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@ API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required descr
       <pubDate>Tue, 20 Oct 2020 20:06:57 +0530</pubDate>
       
       <guid>https://anand-gt.github.io/qtlex-api/Core-Resources/Query/</guid>
-      <description></description>
+      <description>Query </description>
     </item>
     
     <item>
@@ -50,7 +50,7 @@ API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required descr
       <pubDate>Tue, 20 Oct 2020 20:06:45 +0530</pubDate>
       
       <guid>https://anand-gt.github.io/qtlex-api/Core-Resources/Leads/</guid>
-      <description></description>
+      <description>Leads </description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@ API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required descr
       <pubDate>Tue, 20 Oct 2020 20:06:35 +0530</pubDate>
       
       <guid>https://anand-gt.github.io/qtlex-api/Core-Resources/credits/</guid>
-      <description></description>
+      <description>Credits </description>
     </item>
     
     <item>
@@ -68,7 +68,7 @@ API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required descr
       <pubDate>Tue, 20 Oct 2020 20:06:23 +0530</pubDate>
       
       <guid>https://anand-gt.github.io/qtlex-api/Core-Resources/categories/</guid>
-      <description></description>
+      <description>Categories </description>
     </item>
     
   </channel>
