@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Qtlex API</title>
+    <title>Documentation on Qtlex API</title>
     <link>https://anand-gt.github.io/qtlex-api/</link>
-    <description>Recent content on Qtlex API</description>
+    <description>Recent content in Documentation on Qtlex API</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Oct 2020 21:43:58 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2020 22:01:57 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Errors</title>
       <link>https://anand-gt.github.io/qtlex-api/Introduction/Errors/</link>
