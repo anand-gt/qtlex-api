@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Section1s on Qtlex API</title>
+    <link>https://anand-gt.github.io/qtlex-api/section1/</link>
+    <description>Recent content in Section1s on Qtlex API</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Oct 2020 15:50:44 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/section1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post1</title>
+      <link>https://anand-gt.github.io/qtlex-api/section1/post1/</link>
+      <pubDate>Tue, 20 Oct 2020 15:50:44 +0530</pubDate>
+      
+      <guid>https://anand-gt.github.io/qtlex-api/section1/post1/</guid>
+      <description>This is the second post</description>
+    </item>
+    
+  </channel>
+</rss>
