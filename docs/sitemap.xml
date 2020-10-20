@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost/categories/</loc>
+    <loc>https://anand-gt.github.io/qtlex-api/categories/</loc>
   </url>
   
   <url>
-    <loc>http://localhost/</loc>
+    <loc>https://anand-gt.github.io/qtlex-api/</loc>
   </url>
   
   <url>
-    <loc>http://localhost/tags/</loc>
+    <loc>https://anand-gt.github.io/qtlex-api/tags/</loc>
   </url>
   
 </urlset>
