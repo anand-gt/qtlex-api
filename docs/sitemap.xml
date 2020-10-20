@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://anand-gt.github.io/qtlex-api/authenication/</loc>
-    <lastmod>2020-10-20T18:08:47+05:30</lastmod>
+    <loc>https://anand-gt.github.io/qtlex-api/Core-Resources/Categories/Categories/</loc>
+    <lastmod>2020-10-20T19:59:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anand-gt.github.io/qtlex-api/core-resources/</loc>
+    <lastmod>2020-10-20T19:59:44+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://anand-gt.github.io/qtlex-api/</loc>
+    <lastmod>2020-10-20T19:59:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anand-gt.github.io/qtlex-api/authenication/</loc>
     <lastmod>2020-10-20T18:08:47+05:30</lastmod>
   </url>
   
