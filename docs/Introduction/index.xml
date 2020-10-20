@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Qtlex API</title>
+    <link>https://anand-gt.github.io/qtlex-api/Introduction/</link>
+    <description>Recent content in Introduction on Qtlex API</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Oct 2020 21:43:58 +0530</lastBuildDate><atom:link href="https://anand-gt.github.io/qtlex-api/Introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Errors</title>
+      <link>https://anand-gt.github.io/qtlex-api/Introduction/Errors/</link>
+      <pubDate>Tue, 20 Oct 2020 20:16:21 +0530</pubDate>
+      
+      <guid>https://anand-gt.github.io/qtlex-api/Introduction/Errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Authenication</title>
+      <link>https://anand-gt.github.io/qtlex-api/Introduction/Authenication/</link>
+      <pubDate>Tue, 20 Oct 2020 20:10:47 +0530</pubDate>
+      
+      <guid>https://anand-gt.github.io/qtlex-api/Introduction/Authenication/</guid>
+      <description>Authorize users or modify user credentials. User authenication give access to particular api according to user type. Currently three type of user exists.
+ Buyer Seller Admin  Authenicate users You can authenicate users by sending post request with username and password through api.
+API call  qtlex.qtlomics.com/api/v1/login Parameters     parmeter required description     q optional no parameter as such    Examples of API calls  curl -I --header &amp;quot;Content-Type: application/javascript&amp;quot; --request POST --data @request.</description>
+    </item>
+    
+    <item>
+      <title>Content</title>
+      <link>https://anand-gt.github.io/qtlex-api/Introduction/content/</link>
+      <pubDate>Tue, 20 Oct 2020 11:57:29 +0530</pubDate>
+      
+      <guid>https://anand-gt.github.io/qtlex-api/Introduction/content/</guid>
+      <description>This is first draft There is some code curl -X GET http://localhost:8000
+Python Code Block print(&amp;#34;Hello, World&amp;#34;) Javascript Code Block console.log(&amp;#34;Hello, World&amp;#34;) Shell Code Block echo &amp;#34;Hello, World&amp;#34; Curl Command
+This is curl command  API call    API Call     /categories call categories   /get get categories    </description>
+    </item>
+    
+  </channel>
+</rss>
